@@ -107,5 +107,11 @@
    <java-symbol type="style" name="Animation.Toast.SlideRightLeft" />
    <java-symbol type="style" name="Animation.Toast.SlideLeftRight" />
 
+   <!-- Path to the library that contains a device specific key handler -->
+   <java-symbol type="string" name="config_deviceKeyHandlerLib" />
+  
+   <!-- Name of that key handler class -->
+   <java-symbol type="string" name="config_deviceKeyHandlerClass" />
+
 </resources>
 
