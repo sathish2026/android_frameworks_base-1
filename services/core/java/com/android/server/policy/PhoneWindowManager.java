@@ -2219,7 +2219,7 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                 com.android.internal.R.string.config_deviceKeyHandlerLib);
 
         String deviceKeyHandlerClass = mContext.getResources().getString(
-                com.android.internal.R.string.config_deviceKeyHandlerClass);
+                com.android.internal.R.string.config_deviceKeyHandlerClass); {
 
         if (!deviceKeyHandlerLib.isEmpty() && !deviceKeyHandlerClass.isEmpty()) {
             PathClassLoader loader =  new PathClassLoader(deviceKeyHandlerLib,
@@ -2235,8 +2235,8 @@ public class PhoneWindowManager implements WindowManagerPolicy {
                         + deviceKeyHandlerClass + " from class "
                         + deviceKeyHandlerLib, e);
             }
-       }
-
+        }
+     }
     /**
      * Read values from config.xml that may be overridden depending on
      * the configuration of the device.
